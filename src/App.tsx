@@ -8,12 +8,13 @@ import {
   ClipboardCheck, 
   Star, 
   Menu, 
-  X,
+  X, 
   MapPin,
   Clock,
   Mail,
   ChevronRight,
-  ShieldCheck
+  ShieldCheck,
+  CheckCircle
 } from 'lucide-react';
 
 export default function App() {
