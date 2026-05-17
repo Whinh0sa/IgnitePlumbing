@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Raleway", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-charcoal: #2D2D2D;
+  --color-trust-blue: #005BB5;
+  --color-trust-blue-hover: #004a94;
+  --color-action-gold: #D48900;
+  --color-action-gold-hover: #B87600;
+  --color-surface: #F8F9FA;
+  --color-surface-dark: #EDF2F7;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-charcoal);
+  background-color: #FFFFFF;
+  font-size: 18px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Ensure focus states for accessibility */
+*:focus-visible {
+  outline: 3px solid var(--color-trust-blue);
+  outline-offset: 2px;
+}
